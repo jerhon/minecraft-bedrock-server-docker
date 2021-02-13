@@ -4,9 +4,9 @@ This is an UNOFFICIAL way to run Minecraft Bedrock Server in Docker.  Read the t
 
 https://www.minecraft.net/en-us/download/server/bedrock/
 
-This can be used to run a Minecraft bedrock server in a docker container.  This is a wrapper around a shell script which automates downloading the bedrock server image from a URL, extracts it, can set server properties via environment variables, and runs it.
+This is a wrapper around a shell script which automates downloading the bedrock server image from a URL, extracts it, can set server properties via environment variables, and runs it.
 
-This is really the same as downloading and running the server yourself, it just automates those steps and runs the application in a Docker container for simplicity.
+This is really the same as downloading and running the server yourself, it just automates a few steps and runs the application in a Docker container.
 
 # Usage
 
@@ -53,5 +53,5 @@ This is due to the EULA agreement prohibiting redistribution of files.
 
 The goal of this was to set up a simple Minecraft server locally at my house.
 We've got a few XBOXes in different rooms, and the kids have tablets that can connect to servers as well.
-This way the world is stored and run by my server so anyone could connect at any time from any device at my household.
+This way the world is stored and run by my server so anyone could connect at any time from any device in my household.
 
