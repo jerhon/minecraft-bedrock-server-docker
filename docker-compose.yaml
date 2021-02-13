@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  minecraft:
+    image: minecraft-bedrock-server
+    ports:
+      - 19132:19132/udp
+    volumes:
+      - ./minecraft:/app/minecraft
