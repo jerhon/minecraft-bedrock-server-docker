@@ -23,7 +23,7 @@ I suggest using ```docker-compose.yaml``` with the YAML defined in this GitHub r
 Create a new ```docker-compose.override.yaml``` file that sits by the ```docker-compose.yaml``` file with the following contents.  Paste the link for the minecraft download in the
 
 ```
-version: "3.8"
+version: "3.9"
 services:
   minecraft:
     environment:
