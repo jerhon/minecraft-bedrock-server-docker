@@ -8,6 +8,8 @@ This is a wrapper around a shell script which automates downloading the bedrock 
 
 This is really the same as downloading and running the server yourself, it just automates a few steps and runs the application in a Docker container.
 
+Check out the corresponding ```docker-compose.yaml``` to run this easier on [the GitHub repository](https://github.com/jerhon/minecraft-bedrock-server-docker).
+
 # Usage
 
 ## Run
@@ -15,6 +17,8 @@ This is really the same as downloading and running the server yourself, it just 
 You'll need to get a URL for the Minecraft Bedrock Server download from https://www.minecraft.net/en-us/download/server/bedrock/
 
 Choose the linux version, right click on the download link, and copy the URL for the application.
+
+I suggest using ```docker-compose.yaml``` with the YAML defined in the GitHub repository.
 
 Create a new ```docker-compose.override.yaml``` file that sits by the ```docker-compose.yaml``` file with the following contents.  Paste the link for the minecraft download in the
 
